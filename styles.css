@@ -1,0 +1,46 @@
+body {
+	font-family: "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+header {
+	background-color: #c77c7c;
+	color: #161515;
+	padding: 0.625em 1.25em;
+	text-align: center;
+}
+
+main {
+	padding: 1.25em;
+}
+
+#q1 {
+	margin-top: 1.25em;
+	padding: 0.625em;
+	background-color: #e2e2e2;
+	display: block;
+}
+
+#q2 {
+	margin-top: 1.25em;
+	padding: 0.625em;
+	background-color: #e2e2e2;
+	display: block;
+}
+
+#q3 {
+	margin-top: 1.25em;
+	padding: 0.625em;
+	background-color: #e2e2e2;
+	display: block;
+}
+
+.multiple-button{
+    margin-top: 1.25em;
+	padding: 0.625em;
+	background-color: #e2e2e2;
+	display: block;
+}
