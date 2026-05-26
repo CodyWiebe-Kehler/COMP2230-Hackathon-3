@@ -1,11 +1,19 @@
 //Questions and answers list
 const answerOptions = [
-    ["1.1 the answer is 4","1.2","1.3"],
-    ["2.1","2.2","2.3"],
-    ["3.1"]
+    ["a.HMTL tag that do not do anything functional",
+        "b.HTML tag that helps screen reader",
+        "c.A type of poem"],
+    ["a.body is the main content and head is the meta information",
+        "b.body is the body and head is the head",
+        "c.body has a heart and head has a brain"],
+    ["a.navigation", 
+        "b.see the element", 
+        "c.contain links that help navigate the page"]
 ];
 
-const answerKey = [1,2,0];
+const answerKey = ["\n1.a.\n",
+    "2.a.\n",
+    "3.c\n"];
 
 
 const questionSections = document.querySelectorAll(".multiple-question")
@@ -41,4 +49,12 @@ questionSections.forEach((section,sectionIndex) =>{
         secDiv.appendChild(questionDiv)
         console.log(secDiv)
     })
+})
+
+const submitButton = document.getElementById("submit-button")
+
+submitButton.addEventListener("click", (e) => {
+    alert(`The right answers:${answerKey}`);
+    // test to see if it display the right answers
+    console.log(`The right answers:${answerKey}`);
 })
